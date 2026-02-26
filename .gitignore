@@ -1,0 +1,123 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+ 
+# Environment variables
+.env
+.env.*
+.env_au
+.env_nz
+
+# Virtual environment
+venv/
+env/
+.venv/
+.pipenv/
+ 
+# macOS
+.DS_Store
+ 
+# Logs and runtime files
+*.log
+*.pid
+*.sqlite3
+*.db
+*.bak
+ 
+# Pytest / test results
+.cache/
+.coverage
+.tox/
+.pytest_cache/
+ 
+# MyPy, coverage, and other reports
+.mypy_cache/
+coverage.xml
+htmlcov/
+ 
+# IDEs / Editors
+.vscode/
+.idea/
+ 
+# Dist
+build/
+dist/
+*.egg-info/
+ 
+# Node (if using frontend inside same repo)
+node_modules/
+ 
+# Docker
+*.tar
+*.img
+*.lock
+ 
+# Others
+*.swp
+*.tmp
+**pycache**/
+static/
+ 
+# Ignore specific files - "existing_data_modified.xlsx"
+existing_data_modified.xlsx
+ 
+# Ignore the bibles directory
+bibles/
+ 
+ 
+**/output*/
+**/output/*
+ 
+# throwaway images
+temp_image_*.png
+ 
+# intermediate jsons
+bbl_ops_payload.json
+data_inputs.json
+er_filled_template.json
+json_template_object_f2.json
+json_template_object_f3.json
+json_template_object.json
+delta_wp_input.json
+filled_json_response13.json
+normalized_inputs.json
+files_payload.json
+data_inputs.json
+delta_from_bible.json
+delta_object.json
+json_template_object_itm.json
+json_template_input.json
+json_template_test.json
+handler_results.json
+delta.json
+workpaper_handeler_pdf_xlsx/t_main.py
+workpaper_handeler_pdf_xlsx/main_debug.py
+test*.py
+agent/*
+sonarqube/*
+.scannerwork/*
+debug/
+
+test_*.json
+debug_delta*
+cafirm_auto.py*
+ChartOfAccounts*
+
+
+
+pytest.ini
+tests/
+tmp_uploads/
+ca_firms_*
+cafirm_auto.py
+ChartOfAccounts.csv
+
+.flake8
+user_script.py
+user_script_*.py
+.json
+
+.env
+env/*api_keys.py
+api_keys.py
